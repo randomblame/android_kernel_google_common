@@ -975,11 +975,18 @@
 				usb_hs1_phy: phy {
 					compatible = "qcom,usb-hs-phy-apq8064",
 						     "qcom,usb-hs-phy";
+<<<<<<< HEAD
+=======
+					#phy-cells = <0>;
+>>>>>>> 77b05751cbd9... ARM: dts: qcom-apq8064: Collapse usb support into one node
 					clocks = <&sleep_clk>, <&cxo_board>;
 					clock-names = "sleep", "ref";
 					resets = <&usb1 0>;
 					reset-names = "por";
+<<<<<<< HEAD
 					#phy-cells = <0>;
+=======
+>>>>>>> 77b05751cbd9... ARM: dts: qcom-apq8064: Collapse usb support into one node
 				};
 			};
 		};

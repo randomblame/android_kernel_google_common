@@ -320,7 +320,10 @@
 			target-supply	= <&pm8921_lvs7>;
 		};
 
+<<<<<<< HEAD
 		/* OTG */
+=======
+>>>>>>> 77b05751cbd9... ARM: dts: qcom-apq8064: Collapse usb support into one node
 		usb@12500000 {
 			status = "okay";
 			dr_mode = "peripheral";
